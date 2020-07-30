@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-30T07:18:44.882Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="4JnKB8yo5p-9lxZBaQK-" version="13.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-30T07:45:48.868Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="0DxB0Se69A_IBA95uALQ" version="13.5.5" type="github">
   <diagram id="Y8QXynBH_sj2Wj6FeNvu" name="Page-1">
-    <mxGraphModel dx="1442" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1987" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -66,6 +66,9 @@
         <mxCell id="Vfm92MFAx4ZMDWOVS3-b-14" value="根据drainto从createStreamMsg&lt;br&gt;.GroupByOpMsg中获取" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="960" y="885" width="170" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-42" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=30;entryPerimeter=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-15" target="Vfm92MFAx4ZMDWOVS3-b-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Vfm92MFAx4ZMDWOVS3-b-15" value="执行createGroupByStream()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="960" y="1010" width="170" height="70" as="geometry" />
         </mxCell>
@@ -127,8 +130,36 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-40" value="createGoupByStream()&lt;br&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="1005" width="210" height="80" as="geometry" />
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-48" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=55;entryPerimeter=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-40" target="Vfm92MFAx4ZMDWOVS3-b-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-40" value="createGoupByStream()&lt;br&gt;1.createPlugin()&lt;br&gt;2.循环：遍历createStreamMsg.GroupByOpMsg&lt;br&gt;.Conditions，加入conStreams并执行createStreamDeeply()" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="980" width="280" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-43" value="createPlugin()&lt;br&gt;1.根据createStreamMsg.GroupByOpMsg.Plugin&lt;br&gt;在registeredPlugin中找到该插件的func&lt;br&gt;2.执行该插件func" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1000" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-44" value="" style="shape=mxgraph.bpmn.loop;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="720" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-45" value="" style="shape=mxgraph.bpmn.loop;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="536" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-46" value="" style="shape=mxgraph.bpmn.loop;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="546" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-47" value="" style="shape=mxgraph.bpmn.loop;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="1070" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-49" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;exitX=0;exitY=0;exitDx=0;exitDy=92.5;exitPerimeter=0;entryX=1.005;entryY=0.72;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-40" target="Vfm92MFAx4ZMDWOVS3-b-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1400" y="900" as="sourcePoint" />
+            <mxPoint x="1450" y="850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1270" y="1073" />
+              <mxPoint x="1270" y="632" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
