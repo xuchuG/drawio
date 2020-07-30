@@ -1,121 +1,156 @@
-<mxfile host="app.diagrams.net" modified="2020-07-30T08:31:40.419Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="rziFm1U_euMEfnWVZLL9" version="13.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-30T13:38:05.702Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="w93DdIdLPUSw-CwBqxzW" version="13.5.5" type="github">
   <diagram id="Y8QXynBH_sj2Wj6FeNvu" name="Page-1">
-    <mxGraphModel dx="1987" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1941" dy="2064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-28" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-28" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="850" width="510" height="830" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-66" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.7;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-2" target="Vfm92MFAx4ZMDWOVS3-b-65">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-66" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.7;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-2" target="Vfm92MFAx4ZMDWOVS3-b-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-2" value="CreateStream()" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1520" y="50" width="110" height="100" as="geometry" />
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-18" value="处理CreateStreamMsg.SourceOps、intermediateOps、groupByOps&lt;br&gt;&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vfm92MFAx4ZMDWOVS3-b-66">
+          <mxGeometry x="0.1823" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-3" target="Vfm92MFAx4ZMDWOVS3-b-4">
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=30;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-2" target="Vfm92MFAx4ZMDWOVS3-b-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-3" value="createSourceStream()&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.根据 CreateStremMsg.SourceOpMsg.operator找到对应sourceO的func&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.func()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3.返回stream&lt;/span&gt;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-2" target="TnW7Lao6I6UnvpdvaK8C-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-16" value="处理CreateStreamMsg.Observers" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TnW7Lao6I6UnvpdvaK8C-9">
+          <mxGeometry x="0.1149" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.459;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-2" target="TnW7Lao6I6UnvpdvaK8C-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-19" value="处理CreateStreamMsg.Listeners" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TnW7Lao6I6UnvpdvaK8C-17">
+          <mxGeometry x="0.2122" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-2" target="TnW7Lao6I6UnvpdvaK8C-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-28" value="初始化streamContext.runningContext" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TnW7Lao6I6UnvpdvaK8C-27">
+          <mxGeometry x="0.4868" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-32" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.531;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-2" target="TnW7Lao6I6UnvpdvaK8C-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-2" value="CreateStream()" style="shape=card;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2320" y="-10" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-3" target="Vfm92MFAx4ZMDWOVS3-b-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-3" value="createSourceStream()&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.根据 CreateStremMsg.SourceOpMsg.operator找到对应sourceO的func&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.func()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3.返回stream&lt;/span&gt;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="570" width="260" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-4" target="Vfm92MFAx4ZMDWOVS3-b-5">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-4" target="Vfm92MFAx4ZMDWOVS3-b-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-4" value="func()&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.从sourceOpMsg.Parameters整理出输入数据集&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.Just()&lt;/span&gt;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-4" value="func()&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.从sourceOpMsg.Parameters整理出输入数据集&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.Just()&lt;/span&gt;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="750" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-5" target="Vfm92MFAx4ZMDWOVS3-b-6">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-5" target="Vfm92MFAx4ZMDWOVS3-b-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-5" value="func()&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.从sourceOpMsg.Parameters整理出输入数据集&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.Just()&lt;/span&gt;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-5" value="func()&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.从sourceOpMsg.Parameters整理出输入数据集&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.Just()&lt;/span&gt;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="900" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-6" value="Just()&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.将数据集整理成sourceOp（实现了stream接口）中操作流&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.返回sourceOp&lt;/span&gt;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-6" value="Just()&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.将数据集整理成sourceOp（实现了stream接口）中操作流&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.返回sourceOp&lt;/span&gt;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="1040" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-10" value="sc.saveStream(name,stream)&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.将stream保存进streamContext.streamSteps&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;name:CreateStreamMsg的sourceOps的key&lt;/span&gt;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-10" value="sc.saveStream(name,stream)&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.将stream保存进streamContext.streamSteps&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;name:CreateStreamMsg的sourceOps的key&lt;/span&gt;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="560" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-11" target="Vfm92MFAx4ZMDWOVS3-b-12">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-11" target="Vfm92MFAx4ZMDWOVS3-b-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-11" value="createStreamDeeply()&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.将sourceOpMsg.DrainTo切割成drainto&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.createStreamPartDeeply(drainto)&lt;/span&gt;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-11" value="createStreamDeeply()&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.将sourceOpMsg.DrainTo切割成drainto&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.createStreamPartDeeply(drainto)&lt;/span&gt;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="560" width="210" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-34" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-12" target="Vfm92MFAx4ZMDWOVS3-b-28">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-34" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-12" target="Vfm92MFAx4ZMDWOVS3-b-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-12" value="createPartStreamDeeply()&lt;br&gt;执行如下框图" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-12" value="createPartStreamDeeply()&lt;br&gt;执行如下框图" style="shape=card;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="720" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-13" target="Vfm92MFAx4ZMDWOVS3-b-14">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-13" target="Vfm92MFAx4ZMDWOVS3-b-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-18" value="F&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vfm92MFAx4ZMDWOVS3-b-16">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-18" value="F&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Vfm92MFAx4ZMDWOVS3-b-16" vertex="1" connectable="0">
           <mxGeometry x="0.0769" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-13" target="Vfm92MFAx4ZMDWOVS3-b-19">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-13" target="Vfm92MFAx4ZMDWOVS3-b-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-13" value="根据drainto去CreateStreamMsg.I&lt;br&gt;nterMediateOps中查找" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-13" value="根据drainto去CreateStreamMsg.I&lt;br&gt;nterMediateOps中查找" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="790" y="860" width="105" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-14" target="Vfm92MFAx4ZMDWOVS3-b-15">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-14" target="Vfm92MFAx4ZMDWOVS3-b-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-14" value="根据drainto从createStreamMsg&lt;br&gt;.GroupByOpMsg中获取" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-14" value="根据drainto从createStreamMsg&lt;br&gt;.GroupByOpMsg中获取" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="960" y="885" width="170" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-42" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=30;entryPerimeter=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-15" target="Vfm92MFAx4ZMDWOVS3-b-40">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-42" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=30;entryPerimeter=0;" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-15" target="Vfm92MFAx4ZMDWOVS3-b-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-15" value="执行createGroupByStream()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-15" value="执行createGroupByStream()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="960" y="1010" width="170" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-19" target="Vfm92MFAx4ZMDWOVS3-b-20">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-19" target="Vfm92MFAx4ZMDWOVS3-b-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-22" value="T" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vfm92MFAx4ZMDWOVS3-b-21">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-22" value="T" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Vfm92MFAx4ZMDWOVS3-b-21" vertex="1" connectable="0">
           <mxGeometry x="0.3043" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-30" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-19" target="Vfm92MFAx4ZMDWOVS3-b-23">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-30" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-19" target="Vfm92MFAx4ZMDWOVS3-b-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-35" value="F" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vfm92MFAx4ZMDWOVS3-b-30">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-35" value="F" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Vfm92MFAx4ZMDWOVS3-b-30" vertex="1" connectable="0">
           <mxGeometry x="-0.4007" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-19" value="根据InterMediateOp.Operator到mergeOpraators判断是否属于（Merge,Concat,MergeWithFilter）" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-19" value="根据InterMediateOp.Operator到mergeOpraators判断是否属于（Merge,Concat,MergeWithFilter）" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="790" y="1130" width="105" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-20" value="将InterMediateOp放入mergeOpTmp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-20" value="将InterMediateOp放入mergeOpTmp" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1010" y="1155" width="170" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-23" target="Vfm92MFAx4ZMDWOVS3-b-25">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-23" target="Vfm92MFAx4ZMDWOVS3-b-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-61" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-23" target="Vfm92MFAx4ZMDWOVS3-b-56">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-61" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-23" target="Vfm92MFAx4ZMDWOVS3-b-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-23" value="执行createIIntermediateStream()&lt;br&gt;返回stream" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-23" value="执行createIIntermediateStream()&lt;br&gt;返回stream" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="755" y="1320" width="180" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-32" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-25" target="Vfm92MFAx4ZMDWOVS3-b-26">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-32" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-25" target="Vfm92MFAx4ZMDWOVS3-b-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-25" value="执行sc.saveStream(drainto,stream)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-25" value="执行sc.saveStream(drainto,stream)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="755" y="1440" width="180" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-26" value="执行createStreamDeeply()&lt;br&gt;递归开始。直到drainto为空" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-26" value="执行createStreamDeeply()&lt;br&gt;递归开始。直到drainto为空" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="755" y="1570" width="180" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-37" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.041;entryY=1.03;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-25" target="Vfm92MFAx4ZMDWOVS3-b-10">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-37" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.041;entryY=1.03;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-25" target="Vfm92MFAx4ZMDWOVS3-b-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="430" y="870" as="sourcePoint" />
             <mxPoint x="480" y="820" as="targetPoint" />
@@ -126,7 +161,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-39" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=-0.01;exitY=0.88;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-11" target="Vfm92MFAx4ZMDWOVS3-b-26">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-39" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=-0.01;exitY=0.88;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-11" target="Vfm92MFAx4ZMDWOVS3-b-26" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="570" y="1620" as="sourcePoint" />
             <mxPoint x="620" y="1570" as="targetPoint" />
@@ -136,28 +171,28 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-48" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=55;entryPerimeter=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-40" target="Vfm92MFAx4ZMDWOVS3-b-43">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-48" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=55;entryPerimeter=0;" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-40" target="Vfm92MFAx4ZMDWOVS3-b-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-53" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.105;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-40" target="Vfm92MFAx4ZMDWOVS3-b-52">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-53" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.105;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-40" target="Vfm92MFAx4ZMDWOVS3-b-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-55" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-40" target="Vfm92MFAx4ZMDWOVS3-b-54">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-55" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-40" target="Vfm92MFAx4ZMDWOVS3-b-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-40" value="createGoupByStream()&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.createPlugin()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.循环：遍历createStreamMsg.GroupByOpMsg&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;.Conditions，加入condStreams并执行createStreamDeeply()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3.将stream经Map转换为新stream:mapped&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;4.sc.saveStream(name,mapped)：新流替换旧流存进streamContext.streamSteps&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;5.newGourpByObserver():根据condStreams生成observer.Observer&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;6.sc.saveObserver(name,oberserver.Observer):&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;存入Observer&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-40" value="createGoupByStream()&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.createPlugin()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.循环：遍历createStreamMsg.GroupByOpMsg&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;.Conditions，加入condStreams并执行createStreamDeeply()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3.将stream经Map转换为新stream:mapped&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;4.sc.saveStream(name,mapped)：新流替换旧流存进streamContext.streamSteps&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;5.newGourpByObserver():根据condStreams生成observer.Observer&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;6.sc.saveObserver(name,oberserver.Observer):&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;存入Observer&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1340" y="990" width="280" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-43" value="createPlugin()&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.根据createStreamMsg.GroupByOpMsg.Plugin&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;在registeredPlugin中找到该插件的func&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.执行该插件func&lt;/span&gt;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-43" value="createPlugin()&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.根据createStreamMsg.GroupByOpMsg.Plugin&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;在registeredPlugin中找到该插件的func&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.执行该插件func&lt;/span&gt;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" parent="1" vertex="1">
           <mxGeometry x="1660" y="984" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-44" value="" style="shape=mxgraph.bpmn.loop;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-44" value="" style="shape=mxgraph.bpmn.loop;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="960" y="720" width="24" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-47" value="" style="shape=mxgraph.bpmn.loop;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-47" value="" style="shape=mxgraph.bpmn.loop;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="1310" y="1040" width="24" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-49" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;exitX=0;exitY=0;exitDx=0;exitDy=92.5;exitPerimeter=0;entryX=1.005;entryY=0.72;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-40" target="Vfm92MFAx4ZMDWOVS3-b-11">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-49" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;exitX=0;exitY=0;exitDx=0;exitDy=92.5;exitPerimeter=0;entryX=1.005;entryY=0.72;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-40" target="Vfm92MFAx4ZMDWOVS3-b-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1400" y="900" as="sourcePoint" />
             <mxPoint x="1450" y="850" as="targetPoint" />
@@ -167,7 +202,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-51" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=-0.004;entryY=0.955;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.024;exitY=0.08;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-10" target="Vfm92MFAx4ZMDWOVS3-b-40">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-51" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=-0.004;entryY=0.955;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.024;exitY=0.08;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-10" target="Vfm92MFAx4ZMDWOVS3-b-40" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1340" y="1230" as="sourcePoint" />
             <mxPoint x="1390" y="1180" as="targetPoint" />
@@ -177,35 +212,161 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-52" value="newGourpByOberver()&lt;br&gt;1.根据condStream将OnNext,OnError和OnDOne的handler传入Oberserver" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-52" value="newGourpByOberver()&lt;br&gt;1.根据condStream将OnNext,OnError和OnDOne的handler传入Oberserver" style="shape=card;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1675" y="1210" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-54" value="sc.saveObserver()&lt;br&gt;1.存入Observer到streamContext.observers中" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-54" value="sc.saveObserver()&lt;br&gt;1.存入Observer到streamContext.observers中" style="shape=card;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1420" y="1360" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-56" value="createIntermediateStream()&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.依据CreateStreamMsg.IntermediateOpMsg.Operator&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;到interMediateOpBuilder找到对应func&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.执行func&lt;/span&gt;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-56" value="createIntermediateStream()&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.依据CreateStreamMsg.IntermediateOpMsg.Operator&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;到interMediateOpBuilder找到对应func&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.执行func&lt;/span&gt;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="1320" width="280" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-62" value="" style="shape=mxgraph.bpmn.loop;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="810" y="320" width="24" height="24" as="geometry" />
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-62" value="" style="shape=mxgraph.bpmn.loop;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="827" y="300" width="24" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-63" value="CreateStream()" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1750" y="344" width="110" height="100" as="geometry" />
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-63" value="循环执行如下函数集&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.createIntermediateStream()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.sc.saveStream()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3.createStreamDeeply()&lt;/span&gt;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1810" y="344" width="190" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-64" value="" style="shape=mxgraph.bpmn.loop;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="1580" y="344" width="24" height="24" as="geometry" />
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-64" value="" style="shape=mxgraph.bpmn.loop;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="1760" y="338" width="24" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-67" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-65" target="Vfm92MFAx4ZMDWOVS3-b-3">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-67" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-65" target="Vfm92MFAx4ZMDWOVS3-b-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-68" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-65" target="Vfm92MFAx4ZMDWOVS3-b-10">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-68" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-65" target="Vfm92MFAx4ZMDWOVS3-b-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-69" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=120;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-65" target="Vfm92MFAx4ZMDWOVS3-b-11">
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-69" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=120;entryDy=0;entryPerimeter=0;" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-65" target="Vfm92MFAx4ZMDWOVS3-b-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-65" value="执行如下函数集" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="300" width="110" height="100" as="geometry" />
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-65" value="执行如下函数集&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.createSourceStream()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.sc.saveStream()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3.createStreamDeeply()&lt;/span&gt;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="900" y="300" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-3" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-56" target="Vfm92MFAx4ZMDWOVS3-b-63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2100" y="920" as="sourcePoint" />
+            <mxPoint x="2150" y="870" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="1730" />
+              <mxPoint x="2010" y="1730" />
+              <mxPoint x="2010" y="394" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-5" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=-0.013;entryY=0.536;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.726;exitY=-0.024;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-10" target="Vfm92MFAx4ZMDWOVS3-b-63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1420" y="530" as="sourcePoint" />
+            <mxPoint x="1470" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-7" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-11" target="Vfm92MFAx4ZMDWOVS3-b-63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1490" y="640" as="sourcePoint" />
+            <mxPoint x="1540" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TnW7Lao6I6UnvpdvaK8C-8" target="TnW7Lao6I6UnvpdvaK8C-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-8" value="循环执行如下函数集&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.createObserver()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.sc.saveObserver()&lt;/span&gt;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="362" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-10" value="" style="shape=mxgraph.bpmn.loop;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2156" y="344" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-11" value="createObserver()&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.根据CreateStreamMsg.ObserverMsg.name在registerdObserver中获得func&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.执行func获得observer.Observer并返回&lt;/span&gt;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2145" y="560" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-14" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-54" target="TnW7Lao6I6UnvpdvaK8C-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2030" y="880" as="sourcePoint" />
+            <mxPoint x="2080" y="830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1630" y="1450" />
+              <mxPoint x="2100" y="1450" />
+              <mxPoint x="2100" y="462" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TnW7Lao6I6UnvpdvaK8C-15" target="TnW7Lao6I6UnvpdvaK8C-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-25" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TnW7Lao6I6UnvpdvaK8C-15" target="TnW7Lao6I6UnvpdvaK8C-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-15" value="循环执行如下函数集&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.createStatusChangeListener()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.sc.saveListener()&lt;/span&gt;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2540" y="324" width="200" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-20" value="" style="shape=mxgraph.bpmn.loop;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2510" y="330" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-21" value="createStatusChangeListener()&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.根据CreateStreamMsg.LisMsg.name在registeredStatusChangeListener中获得func&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.执行func获得StatusChangeListener并返回&lt;/span&gt;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2470" y="560" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-23" value="sc.saveListener()&lt;br&gt;1.存入listener到streamContext.listeners中" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2770" y="570" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-26" value="循环执行如下函数集&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.sc.runningCtxs[name]=newRuningContext()&lt;/span&gt;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2980" y="324" width="260" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-47" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TnW7Lao6I6UnvpdvaK8C-29" target="TnW7Lao6I6UnvpdvaK8C-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-29" value="协程&lt;br&gt;根据runningContext.Status的不同值，运行不同函数体&lt;br&gt;（running,ready,stopped等）&lt;br&gt;为ready态，阻塞在actionChan管道" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="3430" y="520" width="160" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.45;entryY=-0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TnW7Lao6I6UnvpdvaK8C-30" target="TnW7Lao6I6UnvpdvaK8C-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-30" value="循环执行如下函数集&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.streamContext.runningContext.start()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;这里会起一个协程运作&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3370" y="324" width="260" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-33" value="" style="shape=mxgraph.bpmn.loop;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2950" y="330" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-34" value="" style="shape=mxgraph.bpmn.loop;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="3350" y="320" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-44" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TnW7Lao6I6UnvpdvaK8C-35" target="TnW7Lao6I6UnvpdvaK8C-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-35" value="StartStream()" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4220" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-45" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.467;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TnW7Lao6I6UnvpdvaK8C-36" target="TnW7Lao6I6UnvpdvaK8C-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-36" value="processActionOnStream()" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4185" y="220" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-37" value="streamContext.runninCtxs.do():&lt;br&gt;为streamContext中所有的runningCtxs都插入start的action" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4190" y="410" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-38" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;rotation=-20;" vertex="1" parent="1">
+          <mxGeometry x="3910" y="610" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-39" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=-0.011;entryY=0.84;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TnW7Lao6I6UnvpdvaK8C-38" target="TnW7Lao6I6UnvpdvaK8C-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4010" y="620" as="sourcePoint" />
+            <mxPoint x="4060" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-41" value="start" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TnW7Lao6I6UnvpdvaK8C-39">
+          <mxGeometry x="0.0362" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-40" value="runningContext.actionChan" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3870" y="575" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-43" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TnW7Lao6I6UnvpdvaK8C-29" target="TnW7Lao6I6UnvpdvaK8C-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3600" y="760" as="sourcePoint" />
+            <mxPoint x="3800" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnW7Lao6I6UnvpdvaK8C-46" value="接收到start action后&lt;br&gt;&lt;br&gt;执行函数&lt;br&gt;processAction()&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.runningContext.stream.start():stream为sourceOp&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.running.changeStatusTo(Running):该状态为Running&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="3410" y="800" width="230" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
