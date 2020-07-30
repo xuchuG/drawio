@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2020-07-30T02:49:10.911Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" version="13.5.5" etag="_ovlqjfFi5rtlHzijtAC" type="github"><diagram id="Y8QXynBH_sj2Wj6FeNvu">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-07-30T06:38:35.712Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="0Ek3_qoYiv9HO6q3VaCT" version="13.5.5" type="github">
+  <diagram id="Y8QXynBH_sj2Wj6FeNvu" name="Page-1">
+    <mxGraphModel dx="1442" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-2" value="CreateStream()" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="380" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-3" target="Vfm92MFAx4ZMDWOVS3-b-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-3" value="createSourceStream()&lt;br&gt;1.根据 CreateStremMsg.SourceOpMsg.operator找到对应sourceO的func&lt;br&gt;2.func()" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="570" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-4" target="Vfm92MFAx4ZMDWOVS3-b-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-4" value="func()&lt;br&gt;1.从sourceOpMsg.Parameters整理出输入数据集&lt;br&gt;2.Just()" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="750" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vfm92MFAx4ZMDWOVS3-b-5" target="Vfm92MFAx4ZMDWOVS3-b-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-5" value="func()&lt;br&gt;1.从sourceOpMsg.Parameters整理出输入数据集&lt;br&gt;2.Just()" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="900" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Vfm92MFAx4ZMDWOVS3-b-6" value="Just()&lt;br&gt;1.将数据集整理成sourceOp（实现了stream接口）中操作流&lt;br&gt;2.返回sourceOp" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1040" width="170" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
