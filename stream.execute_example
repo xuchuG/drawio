@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-31T11:33:26.492Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="oJzkqy03wtbugkSZFPoJ" version="13.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-31T11:41:04.763Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="2PtR3wwmeIJlI4ujum6l" version="13.5.5" type="github">
   <diagram id="wF06J6YhkkIpZU0grov2" name="Page-1">
-    <mxGraphModel dx="5135" dy="2362" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4737" dy="2183" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -841,6 +841,9 @@
             <mxPoint x="4450" y="540" as="sourcePoint" />
             <mxPoint x="4530" y="280" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="o8EgOu7zGfpTTkM2gL3n-237" value="状态机变化的转化方式：&lt;br&gt;1.内部自动变化&lt;br&gt;2.外部注入actionChan来改变" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3900" y="980" width="160" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
