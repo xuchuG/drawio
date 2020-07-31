@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-31T03:39:57.236Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="1EV9jjPabj792XVAU_Gx" version="13.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-31T06:16:00.290Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="UXIHdoi9sGn4s8SPNQGp" version="13.5.5" type="github">
   <diagram id="wF06J6YhkkIpZU0grov2" name="Page-1">
-    <mxGraphModel dx="4037" dy="1868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4361" dy="2014" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -132,7 +132,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="o8EgOu7zGfpTTkM2gL3n-67" value="streamContext" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="1930" y="-90" width="110" height="100" as="geometry" />
+          <mxGeometry x="2780" y="-270" width="110" height="100" as="geometry" />
         </mxCell>
         <mxCell id="o8EgOu7zGfpTTkM2gL3n-70" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#FFCCCC;" edge="1" parent="1" source="o8EgOu7zGfpTTkM2gL3n-3" target="o8EgOu7zGfpTTkM2gL3n-1">
           <mxGeometry relative="1" as="geometry" />
@@ -189,6 +189,22 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="o8EgOu7zGfpTTkM2gL3n-94" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.472;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#FFCCCC;" edge="1" parent="1" source="o8EgOu7zGfpTTkM2gL3n-83" target="o8EgOu7zGfpTTkM2gL3n-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o8EgOu7zGfpTTkM2gL3n-97" value="3.2 func(PrepareDumperConfig)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o8EgOu7zGfpTTkM2gL3n-94">
+          <mxGeometry x="-0.1554" y="1" relative="1" as="geometry">
+            <mxPoint x="62.27" y="47.36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8EgOu7zGfpTTkM2gL3n-102" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#FFCCCC;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="o8EgOu7zGfpTTkM2gL3n-83" target="o8EgOu7zGfpTTkM2gL3n-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2200" y="160" />
+              <mxPoint x="2835" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="o8EgOu7zGfpTTkM2gL3n-83" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2150" y="200" width="100" height="60" as="geometry" />
         </mxCell>
@@ -208,6 +224,49 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2060" y="690" as="sourcePoint" />
             <mxPoint x="2110" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8EgOu7zGfpTTkM2gL3n-93" value="registeredPlugin&amp;nbsp; &amp;nbsp;DB" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="2420" y="550" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o8EgOu7zGfpTTkM2gL3n-95" value="1.eventFilter&lt;br&gt;2.stringtoInt&lt;br&gt;...&lt;br&gt;没有PrepareDumperConfig??" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2380" y="710" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="o8EgOu7zGfpTTkM2gL3n-96" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fillColor=#FFCCCC;entryX=0;entryY=0;entryDx=70;entryDy=80;entryPerimeter=0;exitX=0.475;exitY=-0.024;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="o8EgOu7zGfpTTkM2gL3n-95" target="o8EgOu7zGfpTTkM2gL3n-93">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2280" y="700" as="sourcePoint" />
+            <mxPoint x="2330" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8EgOu7zGfpTTkM2gL3n-98" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fillColor=#FFCCCC;exitX=0;exitY=0;exitDx=50;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="o8EgOu7zGfpTTkM2gL3n-88" target="o8EgOu7zGfpTTkM2gL3n-83">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2190" y="530" as="sourcePoint" />
+            <mxPoint x="2240" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2220" y="530" />
+              <mxPoint x="2220" y="290" />
+              <mxPoint x="2200" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8EgOu7zGfpTTkM2gL3n-99" value="func()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o8EgOu7zGfpTTkM2gL3n-98">
+          <mxGeometry x="-0.1846" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8EgOu7zGfpTTkM2gL3n-100" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fillColor=#FFCCCC;exitX=0;exitY=0;exitDx=50;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="o8EgOu7zGfpTTkM2gL3n-93" target="o8EgOu7zGfpTTkM2gL3n-83">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2540" y="510" as="sourcePoint" />
+            <mxPoint x="2590" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2470" y="270" />
+              <mxPoint x="2200" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8EgOu7zGfpTTkM2gL3n-101" value="找到对应plugin的func，并注入plugin.Mapper属性，组成一个 mapper。然后将其上游流和mapper组成一个stream" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o8EgOu7zGfpTTkM2gL3n-100">
+          <mxGeometry x="-0.3148" y="23" relative="1" as="geometry">
+            <mxPoint x="213" y="-38.33" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
