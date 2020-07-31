@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-31T11:41:04.763Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="2PtR3wwmeIJlI4ujum6l" version="13.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-31T11:57:53.149Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="SF3OUGD589MIFxTSe4K_" version="13.5.5" type="github">
   <diagram id="wF06J6YhkkIpZU0grov2" name="Page-1">
-    <mxGraphModel dx="4737" dy="2183" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6993" dy="3197" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -89,7 +89,7 @@
             <mxPoint x="1890" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o8EgOu7zGfpTTkM2gL3n-82" value="2.1情况1:走向GroupByOp，此部分无" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o8EgOu7zGfpTTkM2gL3n-81">
+        <mxCell id="o8EgOu7zGfpTTkM2gL3n-82" value="2.1情况1:走向GroupByOp，&lt;br&gt;将流根据condition来分流&lt;br&gt;此部分无" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o8EgOu7zGfpTTkM2gL3n-81">
           <mxGeometry x="0.2549" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
