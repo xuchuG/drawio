@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-02T11:37:50.413Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="s_Pjdvc-I7C1yIjUnHfN" version="13.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-02T11:39:08.153Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="Y-dvBEvbDh8P3WUqqmsI" version="13.5.7" type="github">
   <diagram id="nZh5rtcOLaGi2WGdM6vA" name="Page-1">
     <mxGraphModel dx="3119" dy="2187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -375,7 +375,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="UpMw4r_qUdOqaKaXqRXh-98" value="&lt;font style=&quot;font-size: 18px&quot;&gt;taskManager的作用：&lt;br&gt;管理execnode，并可以通过来自Jobmanaager的命令改变节点状态&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="UpMw4r_qUdOqaKaXqRXh-98" value="&lt;font style=&quot;font-size: 18px&quot;&gt;taskManager的作用：&lt;br&gt;1.管理execnode，并可以通过来自Jobmanaager的命令改变节点状态&lt;br&gt;2.管理task，更改其状态和转发task cmd&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="780" y="-640" width="450" height="20" as="geometry" />
         </mxCell>
         <mxCell id="UpMw4r_qUdOqaKaXqRXh-102" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="UpMw4r_qUdOqaKaXqRXh-104" target="UpMw4r_qUdOqaKaXqRXh-109">
