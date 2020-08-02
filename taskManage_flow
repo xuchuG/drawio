@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-02T10:39:14.220Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="8041pL3D6NnTYMKdhCUa" version="13.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-02T10:47:24.521Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="pC9k2iBpBpASb1KjfSIa" version="13.5.7" type="github">
   <diagram id="nZh5rtcOLaGi2WGdM6vA" name="Page-1">
     <mxGraphModel dx="3722" dy="2477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -184,7 +184,7 @@
         </mxCell>
         <mxCell id="UpMw4r_qUdOqaKaXqRXh-36" value="2.2.1.c 新建simpleTaskManager对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UpMw4r_qUdOqaKaXqRXh-35">
           <mxGeometry x="-0.3719" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-298.72" y="15.29" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UpMw4r_qUdOqaKaXqRXh-28" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;函数集：&lt;/span&gt;&lt;/div&gt;a.Start():etcd客户端初始化&lt;br&gt;&lt;div&gt;&lt;span&gt;b.CheckCluster():为etcd新建kv集&lt;/span&gt;&lt;/div&gt;&lt;div&gt;c.NewSimpleManager()&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
@@ -209,7 +209,7 @@
             <mxPoint x="48" y="93" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UpMw4r_qUdOqaKaXqRXh-62" value="2.2.3.a.a.2&lt;br&gt;reportMetrics()" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UpMw4r_qUdOqaKaXqRXh-34" target="UpMw4r_qUdOqaKaXqRXh-61">
+        <mxCell id="UpMw4r_qUdOqaKaXqRXh-62" value="2.2.3.a.a.2&lt;br&gt;reportMetrics()" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UpMw4r_qUdOqaKaXqRXh-34" target="UpMw4r_qUdOqaKaXqRXh-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UpMw4r_qUdOqaKaXqRXh-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=60;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="UpMw4r_qUdOqaKaXqRXh-39" target="UpMw4r_qUdOqaKaXqRXh-23">
@@ -254,7 +254,7 @@
         <mxCell id="UpMw4r_qUdOqaKaXqRXh-58" value="协程&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;a. watch监听节点注册事件&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;b.etcd_based.addNode():需要为其创建对应的taskMsgChan,ctrlMsgChan加入Map中&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;c.simpleNodeManager.addNode():启动node&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="1320" y="37.5" width="249.75" height="82.5" as="geometry" />
         </mxCell>
-        <mxCell id="UpMw4r_qUdOqaKaXqRXh-61" value="协程&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;a. watch注册事件，&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;如果新增注册节点，需要为其创建对应的taskMsgChan,ctrlMsgChan加入Map中&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+        <mxCell id="UpMw4r_qUdOqaKaXqRXh-61" value="协程&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;a. 监控所有exenode的心跳&lt;/span&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="1460" y="800" width="249.75" height="82.5" as="geometry" />
         </mxCell>
         <object label="node_server&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;/div&gt;" id="UpMw4r_qUdOqaKaXqRXh-63">
