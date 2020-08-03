@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-03T07:55:47.470Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="u10rcP6w9vGk-prNQfUJ" version="13.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-03T12:10:06.561Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="riNnRKtujVzRNi7lXN4B" version="13.5.8" type="github">
   <diagram id="sIaYSIV6yolP35L68-yw" name="Page-1">
-    <mxGraphModel dx="1607" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3029" dy="1480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -202,6 +202,36 @@
         </mxCell>
         <mxCell id="oQ1ftIYMQapXSfe-0Uf6-82" value="Tasks:                                              []string" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="oQ1ftIYMQapXSfe-0Uf6-80">
           <mxGeometry y="56" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ1ftIYMQapXSfe-0Uf6-89" value="TemplateTask" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1110" width="250" height="324" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ1ftIYMQapXSfe-0Uf6-90" value="name:                               string" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="oQ1ftIYMQapXSfe-0Uf6-89">
+          <mxGeometry y="26" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ1ftIYMQapXSfe-0Uf6-91" value="id:                                      string" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="oQ1ftIYMQapXSfe-0Uf6-89">
+          <mxGeometry y="56" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ1ftIYMQapXSfe-0Uf6-92" value="workDir:                             string" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="oQ1ftIYMQapXSfe-0Uf6-89">
+          <mxGeometry y="86" width="250" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ1ftIYMQapXSfe-0Uf6-93" value="templates:                          []string" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="oQ1ftIYMQapXSfe-0Uf6-89">
+          <mxGeometry y="120" width="250" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ1ftIYMQapXSfe-0Uf6-94" value="spec:                      *runningSpec" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="oQ1ftIYMQapXSfe-0Uf6-89">
+          <mxGeometry y="154" width="250" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ1ftIYMQapXSfe-0Uf6-95" value="jobLevelFunc:           template.FuncMap" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="oQ1ftIYMQapXSfe-0Uf6-89">
+          <mxGeometry y="188" width="250" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ1ftIYMQapXSfe-0Uf6-96" value="rctx:                         task.RunningCtx" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="oQ1ftIYMQapXSfe-0Uf6-89">
+          <mxGeometry y="222" width="250" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ1ftIYMQapXSfe-0Uf6-97" value="runtime:                      task.Runtime" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="oQ1ftIYMQapXSfe-0Uf6-89">
+          <mxGeometry y="256" width="250" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ1ftIYMQapXSfe-0Uf6-98" value="statusFuncs:              map[string]statusFunc" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="oQ1ftIYMQapXSfe-0Uf6-89">
+          <mxGeometry y="290" width="250" height="34" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
