@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-04T08:27:26.390Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="eSbEnUBc1GawKfG6qHDK" version="13.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-04T09:10:44.728Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="F1hQgYHR2l8bb1--cQY9" version="13.5.8" type="github">
   <diagram id="V88J8R0XYIuLnVM00vHM" name="Page-1">
     <mxGraphModel dx="3664" dy="970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -187,7 +187,7 @@
         <mxCell id="ErQjQ0ExapCotJ2YWEid-69" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-660" y="999" width="73" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ErQjQ0ExapCotJ2YWEid-71" value="3.2.2.2.1&lt;br&gt;创建taskManager的etcd管道consumer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="ErQjQ0ExapCotJ2YWEid-71" value="3.2.2.2.1&lt;br&gt;创建taskManager的etcd管道consumer：taskMsgChan" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-650" y="930" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ErQjQ0ExapCotJ2YWEid-87" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.009;entryY=0.509;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;strokeColor=#3333FF;" parent="1" source="ErQjQ0ExapCotJ2YWEid-74" target="ErQjQ0ExapCotJ2YWEid-83" edge="1">
@@ -199,7 +199,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ErQjQ0ExapCotJ2YWEid-74" value="协程&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;a. taskMsgChan.Recv():管道接收数据&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;b.taskMsgHandler()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
+        <mxCell id="ErQjQ0ExapCotJ2YWEid-74" value="协程&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;a. taskMsgChan.Recv():管道接收TaskCommand&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;b.taskMsgHandler()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
           <mxGeometry x="-439" y="970" width="213" height="82.5" as="geometry" />
         </mxCell>
         <mxCell id="ErQjQ0ExapCotJ2YWEid-80" value="" style="shape=mxgraph.bpmn.loop;html=1;outlineConnect=0;" parent="1" vertex="1">
@@ -252,7 +252,7 @@
         <mxCell id="ErQjQ0ExapCotJ2YWEid-94" value="3.2.2.2.2.b.1&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;tm.execute()：将从管道接收到cmd的状态值对应task，后开始执行一个task&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-183" y="740" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ErQjQ0ExapCotJ2YWEid-96" value="3.2.2.2.2.b.1.a&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="ErQjQ0ExapCotJ2YWEid-96" value="3.2.2.2.2.b.1.a&lt;br&gt;t.start()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-40" y="710" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ErQjQ0ExapCotJ2YWEid-102" value="3.2.3&lt;br&gt;注册contorlmsg handler" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -365,7 +365,7 @@
         <mxCell id="sDrJo5drUNeTsr_htkqK-12" value="0.&lt;br&gt;init()：注册exector" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="850" y="60" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="sDrJo5drUNeTsr_htkqK-14" value="3.2.2.2.2.b.1.a&lt;br&gt;将状态执行函数注册进fsm，并开始对于状态（created,alive,dead）的运转" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="sDrJo5drUNeTsr_htkqK-14" value="3.2.2.2.2.b.1.a&lt;br&gt;将状态执行函数注册进fsm，起始状态为created,并开始对于状态（created,alive,dead）的运转" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="430" y="672" width="210" height="20" as="geometry" />
         </mxCell>
         <mxCell id="sDrJo5drUNeTsr_htkqK-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;strokeColor=#3333FF;curved=1;" parent="1" source="sDrJo5drUNeTsr_htkqK-15" target="sDrJo5drUNeTsr_htkqK-1" edge="1">
@@ -376,6 +376,39 @@
         </mxCell>
         <mxCell id="sDrJo5drUNeTsr_htkqK-17" value="3.2.2.2.2.b.1.a.1&lt;br&gt;executor.ExecuteCmd()&lt;br&gt;pro_engine_exector:调用系统os起一个进程&lt;br&gt;stream_engine_base_proc:会调用到上一个&lt;br&gt;stream_engine_inner_executor:流引擎？？&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="880" y="652" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m33rmJjlY7eZjZy0rUfk-1" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ErQjQ0ExapCotJ2YWEid-69">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-830" y="1030" as="sourcePoint" />
+            <mxPoint x="-780" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m33rmJjlY7eZjZy0rUfk-2" value="来自于TaskManager节点发送的task cmd" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-950" y="1033" width="111" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m33rmJjlY7eZjZy0rUfk-3" value="created" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="771" y="862" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m33rmJjlY7eZjZy0rUfk-4" value="alive" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="870" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m33rmJjlY7eZjZy0rUfk-5" value="dead" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="993" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m33rmJjlY7eZjZy0rUfk-6" value="" style="endArrow=classic;html=1;strokeColor=#330000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="840" as="sourcePoint" />
+            <mxPoint x="771" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m33rmJjlY7eZjZy0rUfk-7" value="来自于TaskManager节点,控制节点的资源释放" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="19" y="642" width="111" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m33rmJjlY7eZjZy0rUfk-8" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=-0.04;entryY=0.759;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ErQjQ0ExapCotJ2YWEid-115">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="630" as="sourcePoint" />
+            <mxPoint x="290" y="650.9999999999998" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
