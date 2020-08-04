@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-04T06:18:23.721Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="cf2w212E2l3SMS2UWzu9" version="13.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-04T12:38:23.665Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="LCFUyb3awfEtdzzAi4L7" version="13.5.8" type="github">
   <diagram id="nZh5rtcOLaGi2WGdM6vA" name="Page-1">
-    <mxGraphModel dx="5875" dy="3636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8112" dy="4869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -438,6 +438,9 @@
               <mxPoint x="1070" y="1440" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="TfOgRGV2h7o3hJ4xQCbi-1" value="此部分的转换结果由EcecNode执行完反馈到etcd中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="1690" width="150" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
