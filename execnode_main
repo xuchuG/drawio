@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-01T15:57:30.680Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="NykZadmcFz9hC_Gd1gyE" version="13.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-04T07:32:42.995Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="DEGROSNsMX1MabHArqjq" version="13.5.8" type="github">
   <diagram id="V88J8R0XYIuLnVM00vHM" name="Page-1">
-    <mxGraphModel dx="3391" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4497" dy="1172" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -243,7 +243,7 @@
         <mxCell id="ErQjQ0ExapCotJ2YWEid-99" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=30;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#CCCC00;" parent="1" source="ErQjQ0ExapCotJ2YWEid-90" target="ErQjQ0ExapCotJ2YWEid-60" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ErQjQ0ExapCotJ2YWEid-90" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;&amp;nbsp;函数集：&lt;/span&gt;&lt;/div&gt;a.t.start()：&lt;br&gt;b.t.execute()：" style="shape=card;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="ErQjQ0ExapCotJ2YWEid-90" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;&amp;nbsp;函数集：&lt;/span&gt;&lt;/div&gt;a.t.start()：属于新建一个新task&lt;br&gt;b.t.execute()：已存在该task，接收cmd来改变task状态" style="shape=card;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="24" y="755" width="194" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ErQjQ0ExapCotJ2YWEid-93" value="3.2.2.2.2.b" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
