@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-04T06:58:22.515Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="aHBjkE_wgoidzkTlTJ3t" version="13.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-04T14:04:08.736Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="LFuxjvF83FkaVBfvlKdJ" version="13.5.8" type="github">
   <diagram id="7gMT_y-20c2b8qNSwHw3" name="Page-1">
-    <mxGraphModel dx="10308" dy="4017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6191" dy="2009" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -294,7 +294,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k54FEfScBn5HcWGyEGb9-62" value="a.若是Prepare()，则初始化TemplateJob.jobRuningCtx，其中置jobRuningCtx.taskRunningTime.RunningCtx.RunningStatus---&amp;gt;task.UnExecuted，最后通过LocalJobRunner.SetTemp(jobRunningCtx)保存jobRunningCtx&lt;br&gt;完成则下个为顺序下来的ExeCuteTask状态&lt;br&gt;&lt;br&gt;b.若是ExecuteTasks()，先通过LocalJobRunner.GetTemp恢复jobRunningCtx,之后执行BuildTask()&lt;br&gt;b.a.&amp;nbsp; &amp;nbsp;task.Run()，根据不同的结果注册不同执行流程" style="shape=card;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="k54FEfScBn5HcWGyEGb9-62" value="a.若是Prepare()，则初始化TemplateJob.jobRuningCtx，其中置jobRuningCtx.taskRunningTime.RunningCtx.RunningStatus---&amp;gt;task.UnExecuted，最后通过LocalJobRunner.SetTemp(jobRunningCtx)保存jobRunningCtx&lt;br&gt;完成则下个为顺序下来的ExeCuteTask状态&lt;br&gt;&lt;br&gt;b.若是ExecuteTasks()，job.Recover()::先通过LocalJobRunner.GetTemp恢复jobRunningCtx；之后执行job.BuildTask()&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; b.a.&amp;nbsp; &amp;nbsp;task.Run()，根据不同的结果注册不同执行流程" style="shape=card;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="540" y="1450" width="560" height="200" as="geometry" />
         </mxCell>
         <mxCell id="k54FEfScBn5HcWGyEGb9-65" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=1;entryY=0.689;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="1" target="k54FEfScBn5HcWGyEGb9-36" edge="1">
@@ -388,7 +388,7 @@
             <mxGeometry x="2220" y="1230" width="130" height="40" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="k54FEfScBn5HcWGyEGb9-95" value="a.先通过templateTask.statusFunc获取当前状态应该执行的函数体，此部分在之前已经注册过&lt;br&gt;&lt;br&gt;b.执行此函数体，向远程taskManager获取task的执行状态，根据此状态，jobManager来改变状态机&lt;br&gt;&lt;br&gt;c,保存templateTask.RunningCtx" style="shape=card;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="k54FEfScBn5HcWGyEGb9-95" value="a.先通过templateTask.statusFunc获取当前状态应该执行的函数体func，此部分在之前已经注册过&lt;br&gt;&lt;br&gt;b.func(),向远程taskManager获取task的执行状态，根据此状态，jobManager来改变状态机&lt;br&gt;&lt;br&gt;c,保存templateTask.RunningCtx" style="shape=card;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="2240" y="1690" width="320" height="160" as="geometry" />
         </mxCell>
         <mxCell id="k54FEfScBn5HcWGyEGb9-98" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;exitX=0.078;exitY=0.047;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="k54FEfScBn5HcWGyEGb9-95" edge="1">
