@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-05T02:28:10.660Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="ItWb_hlo0ZKwhGJbOmHP" version="13.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-05T02:30:37.131Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="Y4EEvUqthhpWhPaH1LKT" version="13.5.9" type="github">
   <diagram id="BPBuhNEWKcMvy-UcK6Xg" name="Page-1">
     <mxGraphModel dx="1815" dy="846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,16 +12,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5n2wy-tG1pAKlVkovp4x-1" value="NewDTSPlatform" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5n2wy-tG1pAKlVkovp4x-1" value="NewDTSPlatform" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="220" y="330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5n2wy-tG1pAKlVkovp4x-7" value="类RPC" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5n2wy-tG1pAKlVkovp4x-2" target="5n2wy-tG1pAKlVkovp4x-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5n2wy-tG1pAKlVkovp4x-2" value="JobManager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5n2wy-tG1pAKlVkovp4x-2" value="JobManager" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="494" y="330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5n2wy-tG1pAKlVkovp4x-3" value="TaskManager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5n2wy-tG1pAKlVkovp4x-3" value="TaskManager" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#330000;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="780" y="190" width="610" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5n2wy-tG1pAKlVkovp4x-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="5n2wy-tG1pAKlVkovp4x-4" target="5n2wy-tG1pAKlVkovp4x-13">
@@ -35,7 +35,7 @@
         <mxCell id="5n2wy-tG1pAKlVkovp4x-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5n2wy-tG1pAKlVkovp4x-4" target="5n2wy-tG1pAKlVkovp4x-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5n2wy-tG1pAKlVkovp4x-4" value="ExexNode" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5n2wy-tG1pAKlVkovp4x-4" value="ExexNode" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="780" y="565" width="610" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5n2wy-tG1pAKlVkovp4x-10" value="TaskMsgChan" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;direction=south;" vertex="1" parent="1">
@@ -111,7 +111,7 @@
         <mxCell id="5n2wy-tG1pAKlVkovp4x-31" value="维护task的状态机，执行引擎的解耦" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="815" y="650" width="125" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5n2wy-tG1pAKlVkovp4x-32" value="stream" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5n2wy-tG1pAKlVkovp4x-32" value="stream" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="890" y="760" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5n2wy-tG1pAKlVkovp4x-34" value="plugin的管理，注册，执行等" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
