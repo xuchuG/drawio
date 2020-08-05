@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-05T02:30:37.131Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="Y4EEvUqthhpWhPaH1LKT" version="13.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-05T02:34:35.647Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="OPCZv3_L8QvnVTwckQuV" version="13.5.9" type="github">
   <diagram id="BPBuhNEWKcMvy-UcK6Xg" name="Page-1">
-    <mxGraphModel dx="1815" dy="846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1815" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -105,7 +105,7 @@
         </mxCell>
         <mxCell id="5n2wy-tG1pAKlVkovp4x-30" value="http/handler&lt;br&gt;report node status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5n2wy-tG1pAKlVkovp4x-29">
           <mxGeometry x="-0.129" y="-4" relative="1" as="geometry">
-            <mxPoint x="24.560000000000002" y="22.509999999999998" as="offset" />
+            <mxPoint x="-35.44" y="22.509999999999998" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5n2wy-tG1pAKlVkovp4x-31" value="维护task的状态机，执行引擎的解耦" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -115,7 +115,7 @@
           <mxGeometry x="890" y="760" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5n2wy-tG1pAKlVkovp4x-34" value="plugin的管理，注册，执行等" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1330" y="780" width="125" height="20" as="geometry" />
+          <mxGeometry x="1160" y="730" width="125" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
