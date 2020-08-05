@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-05T02:46:20.288Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="EO8PuIyuEH8nm9rz--u9" version="13.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-05T02:46:47.468Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="WINXEzdBMlN11h45sOxP" version="13.5.9" type="github">
   <diagram id="BPBuhNEWKcMvy-UcK6Xg" name="Page-1">
     <mxGraphModel dx="1815" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,7 +29,7 @@
         </mxCell>
         <mxCell id="5n2wy-tG1pAKlVkovp4x-27" value="update task status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5n2wy-tG1pAKlVkovp4x-26">
           <mxGeometry x="-0.0378" y="-3" relative="1" as="geometry">
-            <mxPoint x="12.46" as="offset" />
+            <mxPoint x="8.510000000000002" y="12.38" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5n2wy-tG1pAKlVkovp4x-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5n2wy-tG1pAKlVkovp4x-4" target="5n2wy-tG1pAKlVkovp4x-32">
@@ -103,9 +103,9 @@
             <mxPoint x="1360" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5n2wy-tG1pAKlVkovp4x-30" value="http/handler&lt;br&gt;report node status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5n2wy-tG1pAKlVkovp4x-29">
+        <mxCell id="5n2wy-tG1pAKlVkovp4x-30" value="http/handler&lt;br&gt;&lt;br&gt;report node status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5n2wy-tG1pAKlVkovp4x-29">
           <mxGeometry x="-0.129" y="-4" relative="1" as="geometry">
-            <mxPoint x="-35.44" y="22.509999999999998" as="offset" />
+            <mxPoint x="-25.439999999999998" y="32.65" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5n2wy-tG1pAKlVkovp4x-31" value="维护task的状态机，执行引擎的解耦" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
