@@ -1,1 +1,125 @@
-<mxfile host="app.diagrams.net" modified="2020-08-05T03:03:29.932Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" version="13.5.9" etag="5uel1FG9s2-FkGJZ3ZDM" type="github"><diagram id="hxGnZF-YS0CuAi8P-7-r">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-08-05T04:02:57.887Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="Hid1XHKloiaTDDKb2fX3" version="13.5.9" type="github">
+  <diagram id="hxGnZF-YS0CuAi8P-7-r" name="Page-1">
+    <mxGraphModel dx="2642" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hPG_Kk7IcE10rofq-1MX-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hPG_Kk7IcE10rofq-1MX-1" target="hPG_Kk7IcE10rofq-1MX-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hPG_Kk7IcE10rofq-1MX-4" value="1.注册handler" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hPG_Kk7IcE10rofq-1MX-3">
+          <mxGeometry x="-0.2551" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hPG_Kk7IcE10rofq-1MX-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.68;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.675;exitY=1.026;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="hPG_Kk7IcE10rofq-1MX-1" target="hPG_Kk7IcE10rofq-1MX-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="192" y="313" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hPG_Kk7IcE10rofq-1MX-6" value="2.启动http" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hPG_Kk7IcE10rofq-1MX-5">
+          <mxGeometry x="0.0243" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hPG_Kk7IcE10rofq-1MX-1" value="main" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="110" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hPG_Kk7IcE10rofq-1MX-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hPG_Kk7IcE10rofq-1MX-2" target="hPG_Kk7IcE10rofq-1MX-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hPG_Kk7IcE10rofq-1MX-14" value="3.1&lt;br&gt;MigrateJobFactory()&lt;br&gt;新建 or 重构 job(一个整个迁移任务)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hPG_Kk7IcE10rofq-1MX-13">
+          <mxGeometry x="-0.2879" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="7.14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hPG_Kk7IcE10rofq-1MX-2" value="http" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="110" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hPG_Kk7IcE10rofq-1MX-7" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="hPG_Kk7IcE10rofq-1MX-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-40" y="490" as="sourcePoint" />
+            <mxPoint x="10" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hPG_Kk7IcE10rofq-1MX-8" value="3.外部请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hPG_Kk7IcE10rofq-1MX-7">
+          <mxGeometry x="-0.3827" y="2" relative="1" as="geometry">
+            <mxPoint x="23.71" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hPG_Kk7IcE10rofq-1MX-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.019;entryY=0.398;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hPG_Kk7IcE10rofq-1MX-9" target="hPG_Kk7IcE10rofq-1MX-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hPG_Kk7IcE10rofq-1MX-18" value="3.1.1&lt;br&gt;DescribeMigrateJobs()&lt;br&gt;重构bean" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hPG_Kk7IcE10rofq-1MX-15">
+          <mxGeometry x="-0.199" relative="1" as="geometry">
+            <mxPoint x="10.59" y="-1.56" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hPG_Kk7IcE10rofq-1MX-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hPG_Kk7IcE10rofq-1MX-9" target="hPG_Kk7IcE10rofq-1MX-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hPG_Kk7IcE10rofq-1MX-22" value="3.1.2&lt;br&gt;通过bean重构migratJob" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hPG_Kk7IcE10rofq-1MX-21">
+          <mxGeometry x="-0.3916" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="8.86" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hPG_Kk7IcE10rofq-1MX-9" value="migrateJobFactory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="110" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hPG_Kk7IcE10rofq-1MX-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hPG_Kk7IcE10rofq-1MX-10" target="hPG_Kk7IcE10rofq-1MX-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hPG_Kk7IcE10rofq-1MX-19" value="3.1.1.1&lt;br&gt;通过orm中间件拉取数据库数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hPG_Kk7IcE10rofq-1MX-16">
+          <mxGeometry x="-0.2511" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hPG_Kk7IcE10rofq-1MX-10" value="bean" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="380" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hPG_Kk7IcE10rofq-1MX-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.433;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hPG_Kk7IcE10rofq-1MX-11" target="hPG_Kk7IcE10rofq-1MX-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hPG_Kk7IcE10rofq-1MX-11" value="orm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="380" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hPG_Kk7IcE10rofq-1MX-12" value="&lt;br&gt;db" style="shape=cylinder2;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="414" y="900" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hPG_Kk7IcE10rofq-1MX-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hPG_Kk7IcE10rofq-1MX-20" target="hPG_Kk7IcE10rofq-1MX-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hPG_Kk7IcE10rofq-1MX-25" value="3.1.2.1&lt;br&gt;if (modify name) (delete)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hPG_Kk7IcE10rofq-1MX-24">
+          <mxGeometry x="0.3139" y="1" relative="1" as="geometry">
+            <mxPoint x="34.57" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hPG_Kk7IcE10rofq-1MX-27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hPG_Kk7IcE10rofq-1MX-20" target="hPG_Kk7IcE10rofq-1MX-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hPG_Kk7IcE10rofq-1MX-29" value="3.1.2.2&lt;br&gt;if (check) (start) (stop)...&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hPG_Kk7IcE10rofq-1MX-27">
+          <mxGeometry x="-0.3462" relative="1" as="geometry">
+            <mxPoint y="13.71" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hPG_Kk7IcE10rofq-1MX-20" value="MigrateJob" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="110" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hPG_Kk7IcE10rofq-1MX-23" value="直接在主流程中执行，并修改数据库" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="755" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hPG_Kk7IcE10rofq-1MX-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.005;entryY=0.626;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hPG_Kk7IcE10rofq-1MX-26" target="hPG_Kk7IcE10rofq-1MX-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hPG_Kk7IcE10rofq-1MX-30" value="3.1.2.2.1&lt;br&gt;更新数据库中job状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hPG_Kk7IcE10rofq-1MX-28">
+          <mxGeometry x="-0.0711" relative="1" as="geometry">
+            <mxPoint x="9.94" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hPG_Kk7IcE10rofq-1MX-26" value="MigrateDao" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="110" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
