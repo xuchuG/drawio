@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-05T08:26:44.671Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="7eb6_imvpaITg4XPK_gi" version="13.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-06T07:15:11.160Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="FeN95NNjMrdtzA4F3bfh" version="13.6.0" type="github">
   <diagram id="m6iPpx1uV_aO6Vki5pra" name="Page-1">
-    <mxGraphModel dx="3265" dy="1948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1806" dy="973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,8 +37,8 @@
         <mxCell id="7NRYsDadUTeAn1NPdf9Q-73" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7NRYsDadUTeAn1NPdf9Q-57" target="7NRYsDadUTeAn1NPdf9Q-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7NRYsDadUTeAn1NPdf9Q-74" value="数据来自于task.json" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="1077" y="656" width="180" height="20" as="geometry" />
+        <mxCell id="7NRYsDadUTeAn1NPdf9Q-74" value="数据来自于task.json，由TaskManager传递过来" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="656" width="270" height="20" as="geometry" />
         </mxCell>
         <mxCell id="7NRYsDadUTeAn1NPdf9Q-75" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.236;entryY=-0.107;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7NRYsDadUTeAn1NPdf9Q-65" target="7NRYsDadUTeAn1NPdf9Q-74" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -216,6 +216,15 @@
         </mxCell>
         <mxCell id="7NRYsDadUTeAn1NPdf9Q-34" value="MessageSys" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1601" y="390" width="206" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="LxYyPfSihlbt1DBbEmhr-1" value="节点管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="266" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LxYyPfSihlbt1DBbEmhr-2" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.033;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="LxYyPfSihlbt1DBbEmhr-1" target="7NRYsDadUTeAn1NPdf9Q-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="350" as="sourcePoint" />
+            <mxPoint x="260" y="300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
