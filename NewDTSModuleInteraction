@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-05T08:28:36.982Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="laWhmC5QrFkRCPVX-65M" version="13.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-06T02:20:09.704Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="IE1Zn6Ef6D7yRIFB7r1b" version="13.6.0" type="github">
   <diagram id="BPBuhNEWKcMvy-UcK6Xg" name="Page-1">
-    <mxGraphModel dx="2177" dy="1298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1306" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5n2wy-tG1pAKlVkovp4x-1" value="NewDTSPlatform" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" parent="1" vertex="1">
-          <mxGeometry x="121" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="150" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5n2wy-tG1pAKlVkovp4x-7" value="类RPC" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5n2wy-tG1pAKlVkovp4x-2" target="5n2wy-tG1pAKlVkovp4x-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -88,7 +88,7 @@
         </mxCell>
         <mxCell id="5n2wy-tG1pAKlVkovp4x-24" value="" style="endArrow=classic;html=1;" parent="1" target="5n2wy-tG1pAKlVkovp4x-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="11" y="230" as="sourcePoint" />
+            <mxPoint x="40" y="230" as="sourcePoint" />
             <mxPoint x="-19" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
