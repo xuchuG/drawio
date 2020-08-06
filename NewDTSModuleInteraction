@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-06T02:20:09.704Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="IE1Zn6Ef6D7yRIFB7r1b" version="13.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-06T02:22:30.249Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="gLnhbCnXaqNymtQ1RG0c" version="13.6.0" type="github">
   <diagram id="BPBuhNEWKcMvy-UcK6Xg" name="Page-1">
     <mxGraphModel dx="1306" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -103,9 +103,9 @@
             <mxPoint x="1211" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5n2wy-tG1pAKlVkovp4x-30" value="http/handler&lt;br&gt;&lt;br&gt;report node status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5n2wy-tG1pAKlVkovp4x-29" vertex="1" connectable="0">
+        <mxCell id="5n2wy-tG1pAKlVkovp4x-30" value="http/handler&lt;br&gt;report node status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5n2wy-tG1pAKlVkovp4x-29" vertex="1" connectable="0">
           <mxGeometry x="-0.129" y="-4" relative="1" as="geometry">
-            <mxPoint x="-25.439999999999998" y="32.65" as="offset" />
+            <mxPoint x="-6.439999999999998" y="53.51" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5n2wy-tG1pAKlVkovp4x-31" value="维护task的状态机，执行引擎的解耦" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
