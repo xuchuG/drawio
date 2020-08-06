@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-06T02:57:04.474Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="1vrkLa3KexE50vGltXOy" version="13.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-06T02:58:00.937Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="RZHpcjkD5C6FCovIlnKI" version="13.6.0" type="github">
   <diagram id="7gMT_y-20c2b8qNSwHw3" name="Page-1">
     <mxGraphModel dx="3412" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -247,7 +247,7 @@
           <mxGeometry x="-1410" y="1115" width="410" height="560" as="geometry" />
         </mxCell>
         <mxCell id="k54FEfScBn5HcWGyEGb9-51" value="job.json" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1370" y="1225" width="90" height="20" as="geometry" />
+          <mxGeometry x="-1490" y="1100" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="k54FEfScBn5HcWGyEGb9-52" value="前端不同的任务类型产生不同的任务：&lt;br&gt;如check，&lt;br&gt;到resource/dts/d_mysql/r_mysql/check目录下读取job.json文件&lt;br&gt;&quot;check&quot; job中task名称及位置（如例子，当前目录下的Checker.json，其内容为task的具体定义）&lt;br&gt;&lt;br&gt;同时通过job.json构建出TemplateJob,其中主要构建其runningSpec成员，依次初始化runningTaskSpec和conditionSpec&lt;br&gt;ps,TemplateJob的JobRunningCtx还没初始化" style="shape=card;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-755" y="1365" width="320" height="210" as="geometry" />
