@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-01T13:49:49.511Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="Mi6M25mtFwERafIIyOFk" version="13.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-04T02:50:37.672Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="vkW-hiNJWNDZONNWlZwj" version="13.6.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2937" dy="1965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3908" dy="2056" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -381,6 +381,36 @@
         <mxCell id="LQ05Wk4gmyGuFEDJjKBE-147" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LQ05Wk4gmyGuFEDJjKBE-119" target="LQ05Wk4gmyGuFEDJjKBE-124">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="LQ05Wk4gmyGuFEDJjKBE-184" value="MigrateJob" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-610" y="-10" width="300" height="324" as="geometry" />
+        </mxCell>
+        <mxCell id="LQ05Wk4gmyGuFEDJjKBE-185" value="MetaInfo:                        *beans.MigrateJobBean" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="LQ05Wk4gmyGuFEDJjKBE-184">
+          <mxGeometry y="26" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LQ05Wk4gmyGuFEDJjKBE-186" value="MigrateDao:                   *MigrateDao" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="LQ05Wk4gmyGuFEDJjKBE-184">
+          <mxGeometry y="56" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LQ05Wk4gmyGuFEDJjKBE-187" value="MigrateDriver:                driver.IMigrateDriver" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="LQ05Wk4gmyGuFEDJjKBE-184">
+          <mxGeometry y="86" width="300" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="LQ05Wk4gmyGuFEDJjKBE-188" value="Fsm:                               FiniteStateMachine" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="LQ05Wk4gmyGuFEDJjKBE-184">
+          <mxGeometry y="120" width="300" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="LQ05Wk4gmyGuFEDJjKBE-189" value="LifeCycleHook:              IMigrateLifeCycleHook" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="LQ05Wk4gmyGuFEDJjKBE-184">
+          <mxGeometry y="154" width="300" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="LQ05Wk4gmyGuFEDJjKBE-190" value="TaskRecorder:                *historyTaskRecorder" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="LQ05Wk4gmyGuFEDJjKBE-184">
+          <mxGeometry y="188" width="300" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="LQ05Wk4gmyGuFEDJjKBE-191" value="EventWatcher:               *migrateEventWatcher" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="LQ05Wk4gmyGuFEDJjKBE-184">
+          <mxGeometry y="222" width="300" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="LQ05Wk4gmyGuFEDJjKBE-192" value="ProxyHelper:                  *ProxyHelper" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="LQ05Wk4gmyGuFEDJjKBE-184">
+          <mxGeometry y="256" width="300" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="LQ05Wk4gmyGuFEDJjKBE-193" value="DevopsAlarm:                *MigrateAlarmer" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="LQ05Wk4gmyGuFEDJjKBE-184">
+          <mxGeometry y="290" width="300" height="34" as="geometry" />
+        </mxCell>
         <mxCell id="LQ05Wk4gmyGuFEDJjKBE-148" value="MigrateJobInfo" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-30" y="1650" width="290" height="1212" as="geometry" />
         </mxCell>
@@ -488,6 +518,15 @@
         </mxCell>
         <mxCell id="LQ05Wk4gmyGuFEDJjKBE-183" value=" UpdateTime:                               time.Time" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="LQ05Wk4gmyGuFEDJjKBE-148">
           <mxGeometry y="1178" width="290" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="LQ05Wk4gmyGuFEDJjKBE-194" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LQ05Wk4gmyGuFEDJjKBE-185" target="LQ05Wk4gmyGuFEDJjKBE-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LQ05Wk4gmyGuFEDJjKBE-195" value="每个操作对应一个MigrateJob，如check,start,pause，etc" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-795" y="-50" width="470" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LQ05Wk4gmyGuFEDJjKBE-196" value="从数据库中读取出来的信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="45" y="120" width="230" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
