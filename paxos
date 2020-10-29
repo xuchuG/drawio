@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-29T12:47:07.664Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="b4mGx5_E9ln61SEjrrUj" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-29T12:59:40.104Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="UqjCKBASvVYMCmx01BQj" version="13.8.0" type="github">
   <diagram id="QOJ6Q7jiCgMd1IzZi1hr" name="Page-1">
     <mxGraphModel dx="1214" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -144,6 +144,9 @@
               <mxPoint x="1130" y="665" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-51" value="改变number取值方式，即可创造出新的工程实践，如raf的number就是(任期+lastlogIndex)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="430" width="358" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
