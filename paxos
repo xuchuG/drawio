@@ -1,1 +1,151 @@
-<mxfile host="app.diagrams.net" modified="2020-10-29T07:20:11.226Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" version="13.8.0" etag="XmAUl32oPqZl-QaVQD0I" type="github"><diagram id="QOJ6Q7jiCgMd1IzZi1hr">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-29T12:36:55.261Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="ePTeN3YTi9Wp3bh5vnuC" version="13.8.0" type="github">
+  <diagram id="QOJ6Q7jiCgMd1IzZi1hr" name="Page-1">
+    <mxGraphModel dx="1214" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wo0B073fvMWUoRXHsEZA-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="90" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-2" value="1.sleep 8h" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="100" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-3" value="2.code 2h" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="130" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-4" value="3.eat 1h" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="160" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-5" value="4.sleep 1h" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="190" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-6" value="5.code 4h" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="220" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-7" value="阶段1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="610" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-8" value="阶段2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="910" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-9" value="Proposer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="490" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-10" value="Accepter&lt;br&gt;&lt;br&gt;accept_nunber:储存当前发到本Accepter的最大的propare quest中的n&lt;br&gt;maxNum_proposal:保存接受的最大number的proposal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="490" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-11" value="n" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="582" y="625" width="66" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-12" value="prepare quest" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="605" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-13" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="680" as="sourcePoint" />
+            <mxPoint x="670" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-14" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="630" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-15" value="情况一：n&amp;gt;accept_number" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="620" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-16" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="550" width="80" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-17" value="操作：&lt;br&gt;accept_number=n&lt;br&gt;承诺不再接受任何number小于accept_number的accept quest(proposal)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="585" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-18" value="向majority发送" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="625" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-19" value="将number选择为n，向majority发送prepare quest&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="690" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-20" value="情况1：还未接受收任何来自proproser的proposal，即maxNum_proposal为空，则回复中不带proposal" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="540" width="550" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-21" value="情况二：maxNum_proposal非空，则回复中携带max_num_proposal返回" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="690" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-22" value="情况二：n&amp;lt;accept_num" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="720" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-23" value="操作：&lt;br&gt;不回复？？？" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="690" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-24" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="400" y="945" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-25" value="情况一：prepare response中无proposal&lt;br&gt;value为任意值" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="935" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-26" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="740" as="sourcePoint" />
+            <mxPoint x="470" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-27" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="552" y="790" width="66" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-28" value="prepare response" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="760" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-29" value="情况一：prepare response中有proposal&lt;br&gt;value为(prepare response).proposal.value" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="1035" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-37" value="n&lt;br&gt;value" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="572" y="900" width="66" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-38" value="accept quest(proposal)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="870" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-39" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="469.9999999999998" y="955" as="sourcePoint" />
+            <mxPoint x="659.9999999999998" y="955" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-41" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="659.9999999999998" y="1015" as="sourcePoint" />
+            <mxPoint x="459.9999999999998" y="1015" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-44" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="940" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-45" value="情况一：n&amp;gt;accept_number" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="930" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-46" value="此时accept可能已经被其他的Proposer更新过状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="890" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-47" value="操作：&lt;br&gt;maxNum_proposal=proposal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="910" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-48" value="情况二：n&amp;lt;accept_number" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1035" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-49" value="操作：&lt;br&gt;不接受" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1010" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-50" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=1.013;exitY=0.932;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.764;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wo0B073fvMWUoRXHsEZA-49" target="wo0B073fvMWUoRXHsEZA-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1230" y="1000" as="sourcePoint" />
+            <mxPoint x="1200" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1230" y="1085" />
+              <mxPoint x="1230" y="860" />
+              <mxPoint x="1130" y="860" />
+              <mxPoint x="1130" y="665" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
