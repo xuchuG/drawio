@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-29T13:04:07.165Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="aRL3mKs-ZC0LyovixJUB" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-30T02:02:47.192Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="BAWmOucQDt--xg1ZHNCD" version="13.8.0" type="github">
   <diagram id="QOJ6Q7jiCgMd1IzZi1hr" name="Page-1">
-    <mxGraphModel dx="1214" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1359" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -147,6 +147,9 @@
         </mxCell>
         <mxCell id="wo0B073fvMWUoRXHsEZA-51" value="改变number取值方式，即可创造出新的工程实践，如raft的number就是(任期+lastlogIndex)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="500" y="430" width="358" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wo0B073fvMWUoRXHsEZA-52" value="需要收到majority的prepare response，才进行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="910" width="260" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
