@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2020-12-08T06:17:39.610Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="13.10.4" etag="_PbtdwYkNtbOFet2_ZCZ" type="github"><diagram id="JffYQMYIl6KCK1kOwqfC">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-08T06:27:06.418Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="-9T2EKklfRMw-sCud3Ig" version="13.10.4" type="github">
+  <diagram id="JffYQMYIl6KCK1kOwqfC" name="Page-1">
+    <mxGraphModel dx="1305" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UHKy1_E1WNvKedHcaV4Y-2" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="230" width="1120" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="UHKy1_E1WNvKedHcaV4Y-3" value="腾讯云内网" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="230" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UHKy1_E1WNvKedHcaV4Y-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UHKy1_E1WNvKedHcaV4Y-5" target="UHKy1_E1WNvKedHcaV4Y-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UHKy1_E1WNvKedHcaV4Y-5" value="公网代理1" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.proxy_server;" vertex="1" parent="1">
+          <mxGeometry x="390" y="360" width="76.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UHKy1_E1WNvKedHcaV4Y-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UHKy1_E1WNvKedHcaV4Y-6" target="UHKy1_E1WNvKedHcaV4Y-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UHKy1_E1WNvKedHcaV4Y-6" value="公网代理2" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.proxy_server;" vertex="1" parent="1">
+          <mxGeometry x="400" y="560" width="76.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UHKy1_E1WNvKedHcaV4Y-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UHKy1_E1WNvKedHcaV4Y-7" target="UHKy1_E1WNvKedHcaV4Y-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UHKy1_E1WNvKedHcaV4Y-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UHKy1_E1WNvKedHcaV4Y-7" target="UHKy1_E1WNvKedHcaV4Y-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UHKy1_E1WNvKedHcaV4Y-7" value="TGW" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.provisioning_server;" vertex="1" parent="1">
+          <mxGeometry x="640" y="450" width="76" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="UHKy1_E1WNvKedHcaV4Y-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UHKy1_E1WNvKedHcaV4Y-8" target="UHKy1_E1WNvKedHcaV4Y-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UHKy1_E1WNvKedHcaV4Y-8" value="NewDTSPlatform" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.xenapp_server;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="448.5" width="73.94" height="86.58" as="geometry" />
+        </mxCell>
+        <mxCell id="UHKy1_E1WNvKedHcaV4Y-9" value="公网机器" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.xenapp_services;" vertex="1" parent="1">
+          <mxGeometry x="90" y="240" width="76" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
