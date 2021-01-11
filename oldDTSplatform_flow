@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-11T08:57:14.425Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="WGyBUX5dB_F66Ir_zDsy" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-11T12:24:03.140Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="FU2mHgnvfqz1o9nK9aTk" version="14.1.8" type="github">
   <diagram id="3jbQmFLQuz4F-x5IDewc" name="Page-1">
-    <mxGraphModel dx="1936" dy="965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1538" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -228,8 +228,8 @@
         <mxCell id="Xr6DzOCXF90UxY9JYVHM-81" value="NotifyBarad" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="650" y="1910" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Xr6DzOCXF90UxY9JYVHM-95" value="1.OldDTSPlatform管理状态重复，十分冗余&lt;br&gt;2.oldDTSPlatform各接口权责不明，check会调用到cgw的modify&lt;br&gt;3.call和callByProxy的区别&lt;br&gt;4.原始老平台只支持自建迁移？&amp;nbsp; cvm--&amp;gt;cdb&lt;br&gt;5.老平台处理redis的代码逻辑新建，测试，检验等在哪--》利用不同dbTypecall不同地址&lt;br&gt;&lt;br&gt;以及newDTS平台如何对其进行转发--》利用NewDTS白名单？？&lt;br&gt;5.老平台现只处理部分mysql和部分的redis迁移？？&lt;br&gt;6.连通性测试部分逻辑在哪处理jnsgw代理的逻辑" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="892.5" y="10" width="480" height="130" as="geometry" />
+        <mxCell id="Xr6DzOCXF90UxY9JYVHM-95" value="1.OldDTSPlatform管理状态重复，十分冗余&lt;br&gt;2.oldDTSPlatform各接口权责不明，check会调用到cgw的modify&lt;br&gt;3.call和callByProxy的区别&lt;br&gt;4.原始老平台只支持自建迁移？&amp;nbsp; cvm--&amp;gt;cdb&lt;br&gt;5.老平台处理redis的代码逻辑新建，测试，检验等在哪--》利用不同dbTypecall不同地址&lt;br&gt;&lt;br&gt;以及newDTS平台如何对其进行转发--》利用NewDTS白名单？？&lt;br&gt;5.老平台现只处理部分mysql和部分的redis迁移？？&lt;br&gt;6.连通性测试部分逻辑在哪处理jnsgw代理的逻辑&lt;br&gt;7.现在只支持同构迁移？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="892.5" width="480" height="150" as="geometry" />
         </mxCell>
         <mxCell id="Xr6DzOCXF90UxY9JYVHM-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Xr6DzOCXF90UxY9JYVHM-96" target="Xr6DzOCXF90UxY9JYVHM-97" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1104,6 +1104,15 @@
         </mxCell>
         <mxCell id="Xr6DzOCXF90UxY9JYVHM-403" value="更改status:JOB_STATUS_RUNNING&lt;br&gt;并持久化" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1848.5" y="5900.75" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QcPFIE74z934JUHMmObk-2" value="resourceId是机架用来标示cdb实例，&lt;br&gt;clusterId是用来标示哪个集群&lt;br&gt;resourceId+clusterId=instanceId" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1935" y="325" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QcPFIE74z934JUHMmObk-3" value="只有同是云上cdb才可能&lt;br&gt;是不需要代理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="535" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QcPFIE74z934JUHMmObk-4" value="新老平台的边界：&lt;br&gt;1.新平台：新的cdb迁移任务，所有mongodb&lt;br&gt;2，老平台：老的cdb迁移任务，所有redis" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="96" y="30" width="250" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
