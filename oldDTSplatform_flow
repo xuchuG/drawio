@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-11T13:50:08.285Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="URAr-o2HL4KK3fnqox9i" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-12T12:23:50.897Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="2dxqmwuIMnFsBHESAwWV" version="14.1.9" type="github">
   <diagram id="3jbQmFLQuz4F-x5IDewc" name="Page-1">
-    <mxGraphModel dx="2019" dy="1900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1321" dy="1801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -104,7 +104,7 @@
         <mxCell id="Xr6DzOCXF90UxY9JYVHM-29" value="createDTSMigrateConnectTest" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="1120" y="260" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Xr6DzOCXF90UxY9JYVHM-30" value="云API" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Xr6DzOCXF90UxY9JYVHM-30" value="内部协议调用" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2270" y="290" width="170" height="540" as="geometry" />
         </mxCell>
         <mxCell id="Xr6DzOCXF90UxY9JYVHM-31" value="call" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -228,8 +228,8 @@
         <mxCell id="Xr6DzOCXF90UxY9JYVHM-81" value="NotifyBarad" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="650" y="1910" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Xr6DzOCXF90UxY9JYVHM-95" value="1.OldDTSPlatform管理状态重复，十分冗余&lt;br&gt;2.oldDTSPlatform各接口权责不明，check会调用到cgw的modify&lt;br&gt;3.call和callByProxy的区别--&amp;gt;callByProxy是cgw想获取相关实例的实际的ip和port信息，但是存在不同的地域，&lt;br&gt;由于历史原因，所有其他地域内的迁移要&lt;br&gt;得到此部分信息要先访问广州，再由广州路由从其他地域获得信息（只有广州地域和其他所有地域是互通的）&lt;br&gt;4.原始老平台只支持自建迁移？&amp;nbsp; cvm--&amp;gt;cdb&lt;br&gt;5.老平台处理redis的代码逻辑新建，测试，检验等在哪--》利用不同dbTypecall不同地址&lt;br&gt;&lt;br&gt;以及newDTS平台如何对其进行转发--》利用NewDTS白名单？？&lt;br&gt;5.老平台现只处理部分mysql和部分的redis迁移？？&lt;br&gt;6.连通性测试部分逻辑在哪处理jnsgw代理的逻辑&lt;br&gt;7.现在只支持同构迁移？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="865" y="-170" width="600" height="170" as="geometry" />
+        <mxCell id="Xr6DzOCXF90UxY9JYVHM-95" value="1.OldDTSPlatform管理状态重复，十分冗余&lt;br&gt;2.oldDTSPlatform各接口权责不明，check会调用到cgw的modify&lt;br&gt;3.call和callByProxy的区别--&amp;gt;callByProxy是cgw想获取相关实例的实际的ip和port信息，但是存在不同的地域，&lt;br&gt;由于历史原因，所有其他地域内的迁移要&lt;br&gt;得到此部分信息要先访问广州，再由广州路由从其他地域获得信息（只有广州地域和其他所有地域是互通的）&lt;br&gt;5.老平台处理redis的代码逻辑新建，测试，检验等在哪--》利用不同dbTypecall不同地址&lt;br&gt;&lt;br&gt;以及newDTS平台如何对其进行转发--》利用NewDTS白名单&lt;br&gt;&lt;br&gt;7.现在只支持同构迁移？--》老平台&amp;nbsp; &amp;nbsp; &amp;nbsp;新平台（mysql-&amp;gt;clickhouse cynosdb tdsql等）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="865" y="-155" width="600" height="140" as="geometry" />
         </mxCell>
         <mxCell id="Xr6DzOCXF90UxY9JYVHM-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Xr6DzOCXF90UxY9JYVHM-96" target="Xr6DzOCXF90UxY9JYVHM-97" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -311,7 +311,7 @@
         <mxCell id="Xr6DzOCXF90UxY9JYVHM-122" value="cgw" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="1571" y="2440" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Xr6DzOCXF90UxY9JYVHM-123" value="云API" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Xr6DzOCXF90UxY9JYVHM-123" value="内部接口调用" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2276" y="2580" width="170" height="1010" as="geometry" />
         </mxCell>
         <mxCell id="Xr6DzOCXF90UxY9JYVHM-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Xr6DzOCXF90UxY9JYVHM-130" target="Xr6DzOCXF90UxY9JYVHM-120" edge="1">
@@ -623,7 +623,7 @@
         <mxCell id="Xr6DzOCXF90UxY9JYVHM-228" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Xr6DzOCXF90UxY9JYVHM-215" target="Xr6DzOCXF90UxY9JYVHM-216" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Xr6DzOCXF90UxY9JYVHM-215" value="如果有代理（JNSGW端代理，则迁移路径则默认为cdb--&amp;gt;mysql），那么就将源端jnsgw的ip和port赋值为代理的ip和port" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Xr6DzOCXF90UxY9JYVHM-215" value="如果有代理（JNSGW端代理，至于源是CDB），那么就将源端jnsgw的ip和port赋值为代理的ip和port--》用于支持源实例的HA" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1410" y="3310" width="181.65" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Xr6DzOCXF90UxY9JYVHM-216" value="收集上面得到的job数据，并将status置为：JOB_STATUS_INITIALED&lt;br&gt;对上述两种情况：分别设置jobType为：&lt;br&gt;JOB_TYPE_CDB&lt;br&gt;JOB_TYPE_DTS_PLATFORM&lt;br&gt;并持久化到数据库中" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
