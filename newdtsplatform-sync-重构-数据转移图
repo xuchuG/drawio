@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T02:48:33.667Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="Yi4z3GyvZSzvREObpYE4" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-03T03:25:55.692Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="zJ_aHKbkRbvbvL-rleR1" version="15.5.9" type="github">
   <diagram id="iLO_m2rJEzKS7gXet8kW" name="Page-1">
     <mxGraphModel dx="1390" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -71,6 +71,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="580" y="450" as="sourcePoint" />
             <mxPoint x="630" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xOheYsziPg53qmBlvJ7M-8" value="JobManager" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="420" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOheYsziPg53qmBlvJ7M-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="xOheYsziPg53qmBlvJ7M-8" target="31IKEwupymFvpbj8b5AW-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="430" as="sourcePoint" />
+            <mxPoint x="610" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
